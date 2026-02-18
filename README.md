@@ -145,10 +145,10 @@ mapquest-agent-skills/
 
 - [MapQuest Developer Portal](https://developer.mapquest.com)
 - [MapQuest API Documentation](https://developer.mapquest.com/documentation)
-- [MapQuest Geocoding API](https://developer.mapquest.com/documentation/geocoding-api/)
-- [MapQuest Directions API](https://developer.mapquest.com/documentation/directions-api/)
-- [MapQuest Static Map API](https://developer.mapquest.com/documentation/static-map-api/v5/)
-- [MapQuest Search Ahead API](https://developer.mapquest.com/documentation/searchahead-api/)
+- [MapQuest Geocoding API](https://developer.mapquest.com/documentation/api/geocoding/)
+- [MapQuest Directions API](https://developer.mapquest.com/documentation/api/directions/)
+- [MapQuest Static Map API](https://developer.mapquest.com/documentation/api/static-map/)
+- [MapQuest Search Ahead API](https://developer.mapquest.com/documentation/api/search-ahead/)
 - [Agent Skills Specification](https://agentskills.io)
 
 ## License
