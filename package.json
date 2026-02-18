@@ -1,49 +1,28 @@
 {
   "name": "mapquest-agent-skills",
   "version": "1.0.0",
-  "description": "Agent Skills for building MapQuest applications with AI coding assistants",
+  "description": "Agent Skills for AI coding assistants (Claude Code, Cursor, Copilot) — teaches MapQuest API best practices: geocoding, directions, static maps, search-ahead, store locators, traffic, and key security.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/definingAvi/mapquest-agent-skills.git"
+  },
+  "homepage": "https://github.com/definingAvi/mapquest-agent-skills#readme",
+  "bugs": {
+    "url": "https://github.com/definingAvi/mapquest-agent-skills/issues"
+  },
+  "author": "definingAvi",
+  "license": "MIT",
+  "keywords": ["mapquest","maps","geocoding","directions","agent-skills","ai","claude","cursor","copilot","llm"],
+  "files": ["skills/","examples/","index.js","README.md","LICENSE"],
   "skills": [
-    {
-      "name": "mapquest-geocoding-patterns",
-      "path": "skills/mapquest-geocoding-patterns/SKILL.md",
-      "description": "Address-to-coordinate and coordinate-to-address conversion using the MapQuest Geocoding API"
-    },
-    {
-      "name": "mapquest-directions-routing",
-      "path": "skills/mapquest-directions-routing/SKILL.md",
-      "description": "Turn-by-turn directions and multi-stop routing using the MapQuest Directions API"
-    },
-    {
-      "name": "mapquest-static-maps",
-      "path": "skills/mapquest-static-maps/SKILL.md",
-      "description": "Generating and embedding static map images via the MapQuest Static Map API"
-    },
-    {
-      "name": "mapquest-search-ahead",
-      "path": "skills/mapquest-search-ahead/SKILL.md",
-      "description": "Typeahead/autocomplete using the MapQuest Search Ahead API"
-    },
-    {
-      "name": "mapquest-web-integration",
-      "path": "skills/mapquest-web-integration/SKILL.md",
-      "description": "Integrating the MapQuest JS SDK into web applications including React and Vue"
-    },
-    {
-      "name": "mapquest-key-security",
-      "path": "skills/mapquest-key-security/SKILL.md",
-      "description": "Best practices for securing MapQuest API keys"
-    },
-    {
-      "name": "mapquest-store-locator",
-      "path": "skills/mapquest-store-locator/SKILL.md",
-      "description": "Full store locator pattern: geocode user input, find nearby locations, display on map, get directions"
-    },
-    {
-      "name": "mapquest-traffic-data",
-      "path": "skills/mapquest-traffic-data/SKILL.md",
-      "description": "Real-time traffic incidents, flow data, and traffic-aware routing"
-    }
-  ],
-  "keywords": ["mapquest", "maps", "geocoding", "directions", "agent-skills", "ai"],
-  "license": "MIT"
+    {"name":"mapquest-geocoding-patterns","path":"skills/mapquest-geocoding-patterns/SKILL.md","description":"Address-to-coordinate and coordinate-to-address conversion using the MapQuest Geocoding API"},
+    {"name":"mapquest-directions-routing","path":"skills/mapquest-directions-routing/SKILL.md","description":"Turn-by-turn directions and multi-stop routing using the MapQuest Directions API"},
+    {"name":"mapquest-static-maps","path":"skills/mapquest-static-maps/SKILL.md","description":"Generating and embedding static map images via the MapQuest Static Map API"},
+    {"name":"mapquest-search-ahead","path":"skills/mapquest-search-ahead/SKILL.md","description":"Typeahead/autocomplete using the MapQuest Search Ahead API"},
+    {"name":"mapquest-web-integration","path":"skills/mapquest-web-integration/SKILL.md","description":"Integrating the MapQuest JS SDK into web applications including React and Vue"},
+    {"name":"mapquest-key-security","path":"skills/mapquest-key-security/SKILL.md","description":"Best practices for securing MapQuest API keys"},
+    {"name":"mapquest-store-locator","path":"skills/mapquest-store-locator/SKILL.md","description":"Full store locator pattern: geocode user input, find nearby locations, display on map, get directions"},
+    {"name":"mapquest-traffic-data","path":"skills/mapquest-traffic-data/SKILL.md","description":"Real-time traffic incidents, flow data, and traffic-aware routing"}
+  ]
 }
